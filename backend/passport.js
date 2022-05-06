@@ -3,14 +3,14 @@ const GithubStrategy = require("passport-github2").Strategy;
 const FacebookStrategy = require("passport-facebook").Strategy;
 const passport = require("passport");
 
-const GOOGLE_CLIENT_ID ="1018983739837-tpdsbce16ih1ool9ou3jl7baibej0qgk.apps.googleusercontent.com"
-const GOOGLE_CLIENT_SECRET = "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"
+const GOOGLE_CLIENT_ID ="your id"
+const GOOGLE_CLIENT_SECRET = "your id"
 
 GITHUB_CLIENT_ID = "your id";
 GITHUB_CLIENT_SECRET = "your id";
 
-FACEBOOK_APP_ID = "701729851096854";
-FACEBOOK_APP_SECRET = "061d0ae4a1a7f8003971c5f1008a1225";
+FACEBOOK_APP_ID = "your id";
+FACEBOOK_APP_SECRET = "your id";
 
 passport.use(
   new GoogleStrategy(
